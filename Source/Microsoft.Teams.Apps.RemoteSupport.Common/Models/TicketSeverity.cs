@@ -12,11 +12,11 @@ namespace Microsoft.Teams.Apps.RemoteSupport.Common.Models
         /// <summary>
         /// Represents that ticket needs to be addressed on normal priority.
         /// </summary>
-        Normal = 0,
+        通常 = 0,
 
         /// <summary>
         /// Represents that ticket needs to be addressed on high priority.
         /// </summary>
-        Urgent = 1,
+        緊急 = 1,
     }
 }

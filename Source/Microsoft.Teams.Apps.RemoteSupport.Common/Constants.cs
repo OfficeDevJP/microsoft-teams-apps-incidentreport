@@ -12,7 +12,7 @@ namespace Microsoft.Teams.Apps.RemoteSupport.Common
         /// <summary>
         /// New request action.
         /// </summary>
-        public const string NewRequestAction = "NEW REQUEST";
+        public const string NewRequestAction = "新しいリクエスト";
 
         /// <summary>
         /// Send request action.
@@ -102,7 +102,7 @@ namespace Microsoft.Teams.Apps.RemoteSupport.Common
         /// <summary>
         /// Urgent request type text.
         /// </summary>
-        public const string UrgentString = "Urgent";
+        public const string UrgentString = "緊急";
 
         /// <summary>
         /// Cancel command.

@@ -202,7 +202,7 @@
     <value>Item text cannot be empty</value>
   </data>
   <data name="normalSeverity" xml:space="preserve">
-    <value>Normal</value>
+    <value>通常</value>
   </data>
   <data name="notAuthorized" xml:space="preserve">
     <value>You are not authorized to access the application</value>
@@ -244,6 +244,6 @@
     <value>Display name should be unique</value>
   </data>
   <data name="urgentSeverity" xml:space="preserve">
-    <value>Urgent</value>
+    <value>緊急</value>
   </data>
 </root>

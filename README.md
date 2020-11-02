@@ -1,57 +1,50 @@
 ---
-page_type: sample
-languages:
-- csharp
-products:
-- office-teams
-description: Microsoft Teams bot and messaging extension to search & report incidents and connect with specialists immediately
-urlFragment: microsoft-teams-apps-incidentreport
+ページタイプ: サンプル
+言語:
+ C#
+製品:
+ office-teams
+解説: インシデントを検索・報告し、専門家とすぐに連絡を取るためのMicrosoft Teamsボットとメッセージング拡張機能
 ---
 
-# Incident Reporter App Template
+# インシデントレポーターアプリテンプレート
 
-| [Documentation](https://github.com/OfficeDev/microsoft-teams-apps-incidentreport/wiki/Home) | [Deployment guide](https://github.com/OfficeDev/microsoft-teams-apps-incidentreport/wiki/Deployment-Guide) | [Architecture](https://github.com/OfficeDev/microsoft-teams-apps-incidentreport/wiki/Solution-Overview) |
-| ---- | ---- | ---- |
+| [ドキュメンテーション](https://github.com/officeDevJp/microsoft-teams-apps-incidentreport/wiki/Home) | [管理者ガイド](https://github.com/officeDevJp/microsoft-teams-apps-incidentreport/wiki/%E7%AE%A1%E7%90%86%E8%80%85%E3%82%AC%E3%82%A4%E3%83%89) |
+| ---- | ---- |
 
-Reporting and management of incidents in an organization is often a manual process ripe for some efficiency gains. Users rely on chat based messaging, e-mail and/or other ad-hoc channels to inform necessary parties about new incidents. Additionally, the information isn't easily audit-able for root cause analyses/postmortems due to transient or one-off nature of e-mail or chat based messaging systems.
+## はじめに
 
-The Incident Reporter bot in Microsoft Teams, helps you to easily and quickly respond to, report and document incidents which helps in dealing with an incident with alacrity. The key features of this bot include:
-- Automated collection of the time, date and location of every incident
-- Customizable incident reporting form based on your workplace needs
-- Incidents reports in specialists team which allows for quick collaboration and notification to the relevant stakeholders to track it to completion
+組織内でのインシデント報告やその管理は手動処理で実施されることが多く、効率を向上させる余地があります。報告者は電子メールやアドホックチャネルのようなチャットベースのメッセージを使用して新しいインシデントを関係者に報告することができますが、電子メールやチャットベースのメッセージングシステムは一時的または単発的な性質を持ち、根本原因分析や事後分析をするために報告された情報を簡単に調査することができません。
 
-![New Request in Incident Reporter personal chat](https://github.com/OfficeDev/microsoft-teams-apps-incidentreport/wiki/Images/01.png)
+Microsoft Teamsのインシデントレポーターボットを使用することで、インシデントへの応答、報告、および記録を簡単かつ迅速に実施することができます。つまり、インシデントへの迅速な対応を可能にします。ボットの主な機能は以下の通りです。
+- 各インシデントの時間、日付、および場所の自動収集
+- ご使用になる職場のニーズに応じてカスタマイズ可能なインシデント報告フォーム
+- スペシャリストチーム内でのインシデント報告により、迅速な協力と関係者への通知が可能となり完了まで追跡可能
 
-![Messaging extension for experts](https://github.com/OfficeDev/microsoft-teams-apps-incidentreport/wiki/Images/Message-extensions.jpg)
+![New Request in Incident Reporter personal chat](https://user-images.githubusercontent.com/70117421/91243749-a69a0600-e785-11ea-9740-24978c939cce.png)
 
-## Legal notice
-This app template is provided under the [MIT License](https://github.com/OfficeDev/microsoft-teams-apps-incidentreport/blob/master/LICENSE) terms.  In addition to these terms, by using this app template you agree to the following:
+![Messaging extension for experts](https://user-images.githubusercontent.com/70117421/91153256-f2ec3400-e6fa-11ea-948f-f723f908050c.png)
 
--	You are responsible for complying with all applicable privacy and security regulations related to use, collection and handling of any personal data by your app.  This includes complying with all internal privacy and security policies of your organization if your app is developed to be sideloaded internally within your organization.
+## 法的通知
+このアプリテンプレートは、[MITライセンス条項](https://github.com/officeDevJp/microsoft-teams-apps-incidentreport/blob/main/LICENSE) に従って提供されます。これらの条件に加え、このアプリテンプレートを使用することで以下に同意するものとします。
 
--	Where applicable, you may be responsible for data related incidents or data subject requests for data collected through your app.
+-	アプリによる個人データの使用、収集、および取り扱いに関する全ての適用可能なプライバシーおよびセキュリティ規制を遵守する責任があります。これには、アプリが組織内でサイドローディングされるように開発されている場合、組織の全ての内部プライバシーおよびセキュリティポリシーへの準拠が含まれます。
 
--	Any trademarks or registered trademarks of Microsoft in the United States and/or other countries and logos included in this repository are the property of Microsoft, and the license for this project does not grant you rights to use any Microsoft names, logos or trademarks outside of this repository.  Microsoft’s general trademark guidelines can be found [here](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general.aspx).
-
--	Use of this template does not guarantee acceptance of your app to the Teams app store.  To make this app available in the Teams app store, you will have to comply with the [submission and validation process](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/deploy-and-publish/appsource/publish), and all associated requirements such as including your own privacy statement and terms of use for your app.
+-	該当する場合、アプリを通して収集されたデータに関するデータ関連のインシデントまたはデータ主体の要求に対して責任を負う場合があります。
 
 
-## Getting started
+-	米国およびその他の国におけるMicrosoftの商標または登録商標、およびこのリポジトリーに含まれるロゴはMicrosoftの資産であり、このプロジェクトに対するライセンスでは、Microsoftの名前、ロゴ、または商標を使用する権利は付与されません。Microsoftの一般的なガイドラインは[こちら](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general.aspx)から確認できます。
 
-Begin with the [Solution overview](https://github.com/OfficeDev/microsoft-teams-apps-incidentreport/wiki/Solution-overview) to read about what the app does and how it works.
+-	このテンプレートを使用しても、Teamsアプリストアへの承認は保証されません。このアプリをTeamsアプリストアで利用できるようにするには、[送信と検証のプロセス](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/deploy-and-publish/appsource/publish)、および独自のプライバシーに関する声明やアプリの利用規約など、関連する全ての要件に準拠する必要があります。
 
-When you're ready to try out Incident Reporter bot, or to use it in your own organization, follow the steps in the [Deployment guide](https://github.com/OfficeDev/microsoft-teams-apps-incidentreport/wiki/DeployementGuide).
+## 展開方法
 
-## Contributing
+[管理者ガイド](https://github.com/officeDevJp/microsoft-teams-apps-incidentreport/wiki/%E7%AE%A1%E7%90%86%E8%80%85%E3%82%AC%E3%82%A4%E3%83%89)の手順に従ってください。
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
+## コントリビューション
 
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
+このプロジェクトは、コントリビュートと提案を歓迎します。コントリビュートでは、寄稿者はコントリビュートを使用する権利を付与する権利があることを宣言する貢献者ライセンス同意書（CLA）に同意する必要があります。詳細については https://cla.opensource.microsoft.com を参照してください。
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+プル要求を送信すると、CLAを提供する必要があるか、また、PR（ステータスチェック、コメントなど）が適切に付与されているかをCLAボットが自動的に判断します。ボットの指示に従ってください。これは、CLAを使用して全てのリポジトリーを通して1回だけ行う必要があります。
+
+このプロジェクトは、[Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/)を採用しています。詳細については、[Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/)を参照するか、追加の質問やコメントを添えて[opencode@microsoft.com](mailto:opencode@microsoft.com)に問い合わせてください。

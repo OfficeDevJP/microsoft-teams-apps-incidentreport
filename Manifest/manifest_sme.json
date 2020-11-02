@@ -18,8 +18,8 @@
     "short": "Incident Reporter - Expert"
   },
   "description": {
-    "short": "Expert team bot to handle user requests and set on-call experts.",
-    "full": "Manage support request and set up on-call experts in team. Search urgent, assigned and unassigned requests right from expert team."
+    "short": "ユーザーからのリクエストを処理したり、オンコールエキスパートを設定するためのエキスパートチームボット",
+    "full": "サポートリクエストを管理し、チームにオンコールエキスパートを設定します。緊急、割り当て済み、および未割り当てのリクエストをエキスパートチームから直接検索します。"
   },
   "accentColor": "#64A2CC",
   "bots": [
@@ -35,8 +35,8 @@
           ],
           "commands": [
             {
-              "title": "Expert list",
-              "description": "List of on-call experts"
+              "title": "エキスパートリスト",
+              "description": "オンコールエキスパートのリスト"
             }
           ]
         }
@@ -53,13 +53,13 @@
         {
           "id": "urgentrequests",
           "type": "query",
-          "title": "Urgent",
-          "description": "Search urgent requests",
+          "title": "緊急",
+          "description": "緊急リクエストの検索",
           "parameters": [
             {
               "name": "searchText",
-              "title": "Search",
-              "description": "Search requests"
+              "title": "検索",
+              "description": "リクエストを検索"
             }
           ],
           "context": [
@@ -71,13 +71,13 @@
         {
           "id": "assignedrequests",
           "type": "query",
-          "title": "Assigned",
-          "description": "Search requests assigned to an expert",
+          "title": "割り当て済み",
+          "description": "エキスパートに割り当てられた検索リクエスト",
           "parameters": [
             {
               "name": "searchText",
-              "title": "Search",
-              "description": "Search requests"
+              "title": "検索",
+              "description": "リクエストを検索"
             }
           ],
           "context": [
@@ -89,13 +89,13 @@
         {
           "id": "unassignedrequests",
           "type": "query",
-          "title": "Unassigned",
-          "description": "Search unassigned requests not yet assigned to an expert",
+          "title": "未割り当て",
+          "description": "エキスパートにまだ割り当てられていない検索リクエスト",
           "parameters": [
             {
               "name": "searchText",
-              "title": "Search",
-              "description": "Search requests"
+              "title": "検索",
+              "description": "リクエストを検索"
             }
           ],
           "context": [

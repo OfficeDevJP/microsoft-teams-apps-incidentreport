@@ -144,7 +144,7 @@ namespace Microsoft.Teams.Apps.RemoteSupport.Helpers
             switch (payload.Action)
             {
                 case ChangeTicketStatus.ReopenAction:
-                    ticketData.TicketStatus = (int)TicketState.Unassigned;
+                    ticketData.TicketStatus = (int)TicketState.未割り当て;
                     ticketData.AssignedToName = null;
                     ticketData.AssignedToObjectId = null;
                     ticketData.ClosedOn = null;
@@ -153,7 +153,7 @@ namespace Microsoft.Teams.Apps.RemoteSupport.Helpers
                     break;
 
                 case ChangeTicketStatus.CloseAction:
-                    ticketData.TicketStatus = (int)TicketState.Closed;
+                    ticketData.TicketStatus = (int)TicketState.クローズ;
                     ticketData.ClosedByName = message.From.Name;
                     ticketData.ClosedOn = message.From.AadObjectId;
                     smeNotification = localizer.GetString("SmeClosedStatus", message.From.Name);
@@ -161,7 +161,7 @@ namespace Microsoft.Teams.Apps.RemoteSupport.Helpers
                     break;
 
                 case ChangeTicketStatus.AssignToSelfAction:
-                    ticketData.TicketStatus = (int)TicketState.Assigned;
+                    ticketData.TicketStatus = (int)TicketState.割り当て済み;
                     ticketData.AssignedToName = message.From.Name;
                     ticketData.AssignedToObjectId = message.From.AadObjectId;
                     ticketData.ClosedOn = null;
@@ -352,7 +352,7 @@ namespace Microsoft.Teams.Apps.RemoteSupport.Helpers
 
                     // Get the ticket from the data store.
                     TicketDetail ticketDetail = await ticketDetailStorageProvider.GetTicketAsync(payload.PostedValues);
-                    if (ticketDetail.TicketStatus == (int)TicketState.Closed)
+                    if (ticketDetail.TicketStatus == (int)TicketState.クローズ)
                     {
                         await turnContext.SendActivityAsync(localizer.GetString("WithdrawErrorMessage"));
                         return;
@@ -360,7 +360,7 @@ namespace Microsoft.Teams.Apps.RemoteSupport.Helpers
 
                     ticketDetail.LastModifiedByName = message.From.Name;
                     ticketDetail.LastModifiedByObjectId = message.From.AadObjectId;
-                    ticketDetail.TicketStatus = (int)TicketState.Withdrawn;
+                    ticketDetail.TicketStatus = (int)TicketState.取り消し;
                     bool success = await ticketDetailStorageProvider.UpsertTicketAsync(ticketDetail);
                     if (!success)
                     {

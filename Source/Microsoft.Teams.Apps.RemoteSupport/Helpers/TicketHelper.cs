@@ -48,11 +48,11 @@ namespace Microsoft.Teams.Apps.RemoteSupport.Helpers
 
             ticketDetail.Description = taskModuleResponseValues?.Description;
             ticketDetail.Title = taskModuleResponseValues.Title;
-            ticketDetail.Severity = (int)(TicketSeverity)Enum.Parse(typeof(TicketSeverity), taskModuleResponseValues.RequestType ?? TicketSeverity.Normal.ToString());
+            ticketDetail.Severity = (int)(TicketSeverity)Enum.Parse(typeof(TicketSeverity), taskModuleResponseValues.RequestType ?? TicketSeverity.通常.ToString());
             ticketDetail.LastModifiedOn = ConvertToDateTimeoffset(DateTime.Now, turnContext.Activity.LocalTimestamp.Value.Offset);
             ticketDetail.LastModifiedByName = turnContext.Activity.From.Name;
             ticketDetail.LastModifiedByObjectId = turnContext.Activity.From.AadObjectId;
-            ticketDetail.RequestType = taskModuleResponseValues.RequestType ?? TicketSeverity.Normal.ToString();
+            ticketDetail.RequestType = taskModuleResponseValues.RequestType ?? TicketSeverity.通常.ToString();
             return ticketDetail;
         }
 
@@ -87,8 +87,8 @@ namespace Microsoft.Teams.Apps.RemoteSupport.Helpers
             ticketDetail.RequesterTicketActivityId = turnContext.Activity.ReplyToId;
             ticketDetail.SmeConversationId = null;
             ticketDetail.SmeTicketActivityId = null;
-            ticketDetail.TicketStatus = (int)TicketState.Unassigned;
-            ticketDetail.Severity = (int)(TicketSeverity)Enum.Parse(typeof(TicketSeverity), ticketDetail.RequestType ?? TicketSeverity.Normal.ToString());
+            ticketDetail.TicketStatus = (int)TicketState.未割り当て;
+            ticketDetail.Severity = (int)(TicketSeverity)Enum.Parse(typeof(TicketSeverity), ticketDetail.RequestType ?? TicketSeverity.通常.ToString());
             ticketDetail.AdditionalProperties = CardHelper.ValidateAdditionalTicketDetails(ticketAdditionalDetails, turnContext.Activity.LocalTimestamp.Value.Offset);
             ticketDetail.CardId = cardId;
             ticketDetail.AssignedToName = string.Empty;

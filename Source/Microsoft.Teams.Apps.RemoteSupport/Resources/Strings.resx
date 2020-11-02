@@ -17,14 +17,14 @@
     <resheader name="version">2.0</resheader>
     <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
     <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
-    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Name1"><value>これは長い文字列です。</value><comment>コメントです</comment></data>
     <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
     <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
         <value>[base64 mime encoded serialized .NET Framework object]</value>
     </data>
     <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
         <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
-        <comment>This is a comment</comment>
+        <comment>コメントです</comment>
     </data>
                 
     There are any number of "resheader" rows that contain simple 
@@ -118,362 +118,362 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="CreatedOnText" xml:space="preserve">
-    <value>Created on </value>
-    <comment>Text to show in ME Thumbnail card</comment>
+    <value>作成日</value>
+    <comment>MEサムネイルカードに表示するテキスト</comment>
   </data>
   <data name="EditRequestTitle" xml:space="preserve">
-    <value>Edit request</value>
-    <comment>Text to show on button</comment>
+    <value>リクエストの編集</value>
+    <comment>ボタンに表示するテキスト</comment>
   </data>
   <data name="EditTicketActionText" xml:space="preserve">
-    <value>Edit</value>
-    <comment>Text to show for edit in ticket detail card in 1:1 chat.</comment>
+    <value>編集</value>
+    <comment>1対1のチャット内チケット詳細カード編集に表示するテキスト</comment>
   </data>
   <data name="GoToOriginalThreadButtonText" xml:space="preserve">
-    <value>View details</value>
-    <comment>Text to show on button in End User ME .</comment>
+    <value>詳細の表示</value>
+    <comment>End User Me内のボタンに表示するテキスト</comment>
   </data>
   <data name="InvalidTenantText" xml:space="preserve">
-    <value>Invalid tenant detected</value>
-    <comment>Text to show if invalid tenant.</comment>
+    <value>無効なテナントを検出</value>
+    <comment>無効テナントかどうかを表示するテキスト</comment>
   </data>
   <data name="No" xml:space="preserve">
-    <value>No</value>
-    <comment>Text to show in confirmation card.</comment>
+    <value>いいえ</value>
+    <comment>確認カードに表示するテキスト</comment>
   </data>
   <data name="NormalText" xml:space="preserve">
-    <value>Normal</value>
-    <comment>Text to show on the radio button when selected normal.</comment>
+    <value>通常</value>
+    <comment>通常を選択した場合のラジオボタンに表示するテキスト</comment>
   </data>
   <data name="RequestSubmittedContent" xml:space="preserve">
-    <value>For reference, here's what I shared with the on-call team.</value>
-    <comment>Text to show on request submitted card.</comment>
+    <value>以下のインシデントをオンコールチームと共有しています。</value>
+    <comment>リクエスト提出カードに表示するテキスト</comment>
   </data>
   <data name="RequestSubmittedText" xml:space="preserve">
-    <value>Request sent</value>
-    <comment>Text to show as tiltle of ticket detail card send in 1:1 chat with bot.</comment>
+    <value>リクエストを送信しました</value>
+    <comment>ボットとの1対１のチャット内チケット詳細カードのタイトルとして表示するテキスト</comment>
   </data>
   <data name="UpdateActionText" xml:space="preserve">
-    <value>Update</value>
-    <comment>Text to show on the update button in adaptive card.</comment>
+    <value>更新</value>
+    <comment>アダプティブカード内の更新ボタンに表示するテキスト</comment>
   </data>
   <data name="UrgentText" xml:space="preserve">
-    <value>Urgent</value>
-    <comment>Text to show on the radio button when selected urgent.</comment>
+    <value>緊急</value>
+    <comment>緊急を選択した場合のラジオボタンに表示するテキスト</comment>
   </data>
   <data name="WithdrawConfirmation" xml:space="preserve">
-    <value>Are you sure you want to withdraw the request?</value>
-    <comment>Text to show on withdraw request action in ticket detail card in 1:1 chat.</comment>
+    <value>リクエストを取り消しますか？</value>
+    <comment>1対1のチャット内チケット詳細カード内での取り消しリクエストに表示するテキスト</comment>
   </data>
   <data name="WithdrawRequestActionText" xml:space="preserve">
-    <value>Withdraw</value>
-    <comment>Text to show on withdraw button in Request submitted card.</comment>
+    <value>取り消し</value>
+    <comment>リクエスト提出カードの取り消しボタンに表示するテキスト</comment>
   </data>
   <data name="WithdrawText" xml:space="preserve">
-    <value>Your request #{0} has been withdrawn. If other problem comes up, make a new request. </value>
-    <comment>Text to show End User Notification when requets is submitted.</comment>
+    <value>リクエスト#{0}を取り消しました。他の問題が発生したら、新しいリクエストを作成してください。</value>
+    <comment>リクエストが提出された際にエンドユーザー通知に表示するテキスト</comment>
   </data>
   <data name="Yes" xml:space="preserve">
-    <value>Yes</value>
-    <comment>Text to show yes in confirmation card.</comment>
+    <value>はい</value>
+    <comment>確認カードに「はい」を表示するテキスト</comment>
   </data>
   <data name="ContentText" xml:space="preserve">
-    <value>Get started now...</value>
-    <comment>Text to show in EndUser welcome card.</comment>
+    <value>今すぐ始める</value>
+    <comment>End User welcomeカードに表示するテキスト</comment>
   </data>
   <data name="NewRequestBulletPoint" xml:space="preserve">
-    <value>* Hit the  **New request** button or type **New request** in this chat.</value>
-    <comment>Text to show command in a welcome card.</comment>
+    <value>**新しいリクエスト**ボタンまたはチャット内の**新しいリクエスト**をタップしてください。</value>
+    <comment>welcomeカードにコマンドを表示するテキスト</comment>
   </data>
   <data name="NewRequestButtonText" xml:space="preserve">
-    <value>New request</value>
-    <comment>Text to show in Edit task module,new request card.</comment>
+    <value>新しいリクエスト</value>
+    <comment>新しいリクエストカードの編集タスクモジュールに表示するテキスト</comment>
   </data>
   <data name="WelcomeCardContent" xml:space="preserve">
-    <value>Facing a problem? I can ask the on-call team to look into it.</value>
-    <comment>Text to show bot description in welcome card for EndUser.</comment>
+    <value>問題が発生していますか？</value>
+    <comment>End User向けwelcomeカード内にボット詳細を表示するテキスト</comment>
   </data>
   <data name="WelcomeCardTitle" xml:space="preserve">
-    <value>Welcome!</value>
-    <comment>Text to show in welcome card.</comment>
+    <value>ようこそ!</value>
+    <comment>welcomeカードに表示するテキスト</comment>
   </data>
   <data name="WelcomeSubHeaderText" xml:space="preserve">
-    <value>Here's how it works:</value>
-    <comment>Text to show as a sub header in welcome card.</comment>
+    <value>使用方法：</value>
+    <comment>welcomeカードにサブヘッダーとして表示するテキスト</comment>
   </data>
   <data name="AssignToMeActionChoiceTitle" xml:space="preserve">
-    <value>Assign to me</value>
-    <comment>Text to assign a ticket to himself.</comment>
+    <value>自分へ割り当て</value>
+    <comment>自分にチケットを割り当てるために表示するテキスト</comment>
   </data>
   <data name="ChangeStatusButtonText" xml:space="preserve">
-    <value>Change status</value>
-    <comment>Text to show change status on button.</comment>
+    <value>ステータス変更</value>
+    <comment>ボタンに変更ステータスを表示するテキスト</comment>
   </data>
   <data name="ChatTextButton" xml:space="preserve">
-    <value>Chat</value>
-    <comment>Text to show chat button for EndUser.</comment>
+    <value>チャット</value>
+    <comment>EndUserにチャットボタンを表示するテキスト</comment>
   </data>
   <data name="CloseActionChoiceTitle" xml:space="preserve">
-    <value>Close</value>
-    <comment>Text to show Close action in Change status section.</comment>
+    <value>解決済み</value>
+    <comment>変更ステータスセクションにクローズアクションを表示するテキスト</comment>
   </data>
   <data name="FirstObservedText" xml:space="preserve">
-    <value>First observed on</value>
-    <comment>Text to shown title for First observed in ticket card.</comment>
+    <value>最初に発生した日</value>
+    <comment>チケットカードに最初に発生した日のタイトルを表示するテキスト</comment>
   </data>
   <data name="ReopenActionChoiceTitle" xml:space="preserve">
-    <value>Reopen</value>
-    <comment>Text to show in change status section in SME request details card.</comment>
+    <value>もう一度開く</value>
+    <comment>SMEリクエスト詳細カードの変更ステータスセクションに表示するテキスト</comment>
   </data>
   <data name="ReopenAssignToMeActionChoiceTitle" xml:space="preserve">
-    <value>Reopen and assign to me.</value>
-    <comment>Text to show in change status section in SME request details card.</comment>
+    <value>もう一度開き自分に割り当てる</value>
+    <comment>SMEリクエスト詳細カードの変更ステータスセクションに表示するテキスト</comment>
   </data>
   <data name="RequestDetailsText" xml:space="preserve">
-    <value>Request details</value>
-    <comment>Text to show in Request details card for Expert Team</comment>
+    <value>リクエスト詳細</value>
+    <comment>エキスパートチーム用のリクエスト詳細カードに表示するテキスト</comment>
   </data>
   <data name="SeverityButtonText" xml:space="preserve">
-    <value>Change severity</value>
-    <comment>Text to show severity on button in request details card.</comment>
+    <value>緊急度変更</value>
+    <comment>リクエスト詳細カード内のボタンに緊急度を表示するテキスト</comment>
   </data>
   <data name="SmeRequestDetailText" xml:space="preserve">
-    <value>{0} is requesting support.</value>
-    <comment>Text to show under request submitted card to SME.</comment>
+    <value>{0}がサポートをリクエスト中です。</value>
+    <comment>SMEのリクエスト提出カード配下に表示するテキスト</comment>
   </data>
   <data name="SmeUserChatMessage" xml:space="preserve">
-    <value>RE : Support request {0}.</value>
-    <comment>Text to show when SME user try to chat with Enduser.</comment>
+    <value>リクエスト番号 : {0}</value>
+    <comment>SMEがエンドユーザーとチャットしようとする時に表示するテキスト</comment>
   </data>
   <data name="UnassignActionChoiceTitle" xml:space="preserve">
-    <value>Unassign</value>
-    <comment>Text to show in change status dropdown choice in request details card.</comment>
+    <value>割り当て解除</value>
+    <comment>リクエスト詳細カード内の変更ステータスドロップダウン選択肢に表示するテキスト</comment>
   </data>
   <data name="EndUserNotificationText" xml:space="preserve">
-    <value>The support team has received your request #{0}.</value>
-    <comment>Text to show EndUser notification when request is submitted.</comment>
+    <value>サポートチームがリクエスト#{0}を受け取りました。</value>
+    <comment>リクエストが提出された際にEnd User通知に表示するテキスト</comment>
   </data>
   <data name="SmeAssignedStatus" xml:space="preserve">
-    <value>This request is now assigned to {0}.</value>
-    <comment>Text to show notification as assigned request is closed to SME Users.</comment>
+    <value>このリクエストは、{0}に割り当てられました。</value>
+    <comment>割り当てられたリクエストがクローズされた際、SMEユーザーに対する通知に表示されるテキスト</comment>
   </data>
   <data name="SmeClosedStatus" xml:space="preserve">
-    <value>Status changed to resolved by {0}.</value>
-    <comment>Text to show notification as request is closed to SME Users.</comment>
+    <value>ステータスは{0}により解決済みに変更されました。</value>
+    <comment>リクエストがクローズされた際、SMEユーザーに対する通知に表示されるテキスト</comment>
   </data>
   <data name="SmeSeverityStatus" xml:space="preserve">
-    <value>Severity changed to {0} by {1}.</value>
-    <comment>Text to show notification when request changes severity from SME Users.</comment>
+    <value>緊急度は{1}により{0}に変更されました。</value>
+    <comment>リクエストの緊急度がSMEユーザーから変更された際の通知に表示されるテキスト</comment>
   </data>
   <data name="SmeUnassignedStatus" xml:space="preserve">
-    <value>Status changed to unassigned by {0}.</value>
-    <comment>Text to show notification when request is unassigned to SME Users.</comment>
+    <value>ステータスは{0}により未割り当てに変更されました。</value>
+    <comment>リクエストの割り当てが解除クローズされた際、SMEユーザーに対する通知に表示されるテキスト</comment>
   </data>
   <data name="ManageExpertsActionText" xml:space="preserve">
-    <value>Manage</value>
-    <comment>Text to show on button</comment>
+    <value>管理</value>
+    <comment>ボタンに表示するテキスト</comment>
   </data>
   <data name="OnCallSMEDetailCardText" xml:space="preserve">
-    <value>Here's the current on-call team. Click **Manage** to change which specialists are on the team.</value>
-    <comment>On call SME detail card text.</comment>
+    <value>現在のオンコールチームです。チームのスペシャリストを変更する場合、**管理**をクリックしてください。</value>
+    <comment>オンコールSME詳細カードに表示するテキスト</comment>
   </data>
   <data name="UpdateHistoryActionText" xml:space="preserve">
-    <value>View history</value>
-    <comment>Text to show on button</comment>
+    <value>履歴の表示</value>
+    <comment>ボタンに表示するテキスト</comment>
   </data>
   <data name="DatetimeTitleText" xml:space="preserve">
-    <value>Last updated on</value>
-    <comment>Text to show on update history card title</comment>
+    <value>最終更新日</value>
+    <comment>更新履歴カードタイトルに表示するテキスト</comment>
   </data>
   <data name="NameTitleText" xml:space="preserve">
-    <value>Name</value>
-    <comment>Text to show on update history card title</comment>
+    <value>名前</value>
+    <comment>更新履歴カードタイトルに表示するテキスト</comment>
   </data>
   <data name="NoOnCallExpertsConfiguredText" xml:space="preserve">
-    <value>No one is on call right now. Select **Manage** to add specialists to the on-call team.</value>
-    <comment>Text to show when no on call support experts are configured</comment>
+    <value>オンコール中のスペシャリストがいません。オンコールチームにスペシャリストを追加する場合、**管理**をクリックしてください。</value>
+    <comment>オンコールサポートエキスパートが1人も設定されていない際に表示するテキスト</comment>
   </data>
   <data name="ManageExpertsTitle" xml:space="preserve">
-    <value>Manage list of on-call experts here</value>
-    <comment>Text to show in manage experts page shown in task module </comment>
+    <value>ここでオンコールエキスパートのリストを管理します。</value>
+    <comment>タスクモジュールのエキスパート管理ページに表示されるテキスト</comment>
   </data>
   <data name="NoUpdateHistoryText" xml:space="preserve">
-    <value>There is no on-call history available.</value>
-    <comment>Text to show when no update history is available.</comment>
+    <value>利用可能なオンコール履歴がありません。</value>
+    <comment>利用可能な変更履歴が存在しない場合に表示されるテキスト</comment>
   </data>
   <data name="ErrorMessage" xml:space="preserve">
-    <value>Something went wrong. Try again in a few minutes.</value>
-    <comment>Generic error message.</comment>
+    <value>問題が発生しました。数分後にもう一度お試しください。</value>
+    <comment>一般的なエラーメッセージ</comment>
   </data>
   <data name="AssignedTicketUserNotification" xml:space="preserve">
-    <value>The support team picked up your request #{0}. A specialist will contact you soon.</value>
-    <comment>Text to show notification for user when ticket is assigned to expert team.</comment>
+    <value>サポートチームがリクエスト#{0}を受け取りました。間もなく、スペシャリストがご連絡いたします。</value>
+    <comment>チケットがエキスパートチームに割り当てられた際のユーザー通知メッセージに表示するテキスト</comment>
   </data>
   <data name="ClosedTicketUserNotification" xml:space="preserve">
-    <value>This request with ticket number #{0} is resolved. Make a new request if you still need help.</value>
-    <comment>Text to show user notification message when ticket is closed by Expert Team.</comment>
+    <value>チケット番号#{0}のリクエストは解決済みです。サポートがさらに必要な場合は、新しいリクエストを作成してください。</value>
+    <comment>チケットがエキスパートチームによってクローズされた際のユーザー通知メッセージに表示するテキスト</comment>
   </data>
   <data name="EscalateButtonText" xml:space="preserve">
-    <value>Escalate</value>
-    <comment>Text to show on button in EndUser ME.</comment>
+    <value>エスカレーション</value>
+    <comment>エンドユーザーMEのボタンに表示するテキスト</comment>
   </data>
   <data name="ReopenedTicketUserNotification" xml:space="preserve">
-    <value>We're changing who works on your request. We'll update you soon.</value>
-    <comment>Text to show user when status of ticket is reopened by Expert team member.</comment>
+    <value>本リクエストの担当者を変更中です。間もなくお知らせします。</value>
+    <comment>エキスパートチームのメンバーによってチケットのステータスが再度開かれた際、ユーザーに表示するテキスト</comment>
   </data>
   <data name="RequestActionTicketUserNotification" xml:space="preserve">
-    <value>The support team changed the severity level on your request #{0}.</value>
-    <comment>Text to show user when severity of ticket is changed by Expert team member.</comment>
+    <value>サポートチームによりリクエスト#{0}の緊急度が変更されました。</value>
+    <comment>エキスパートチームのメンバーによってチケットの緊急度が変更された際、ユーザーに表示するテキスト</comment>
   </data>
   <data name="DateValidationText" xml:space="preserve">
-    <value>The date selected must be in the past</value>
-    <comment>Text to show if issue date is greater than enter date of is empty.</comment>
+    <value>過去の日付を選択する必要があります</value>
+    <comment>発行日が未入力時の日付よりも未来の場合に表示するテキスト</comment>
   </data>
   <data name="DescriptionValidationText" xml:space="preserve">
-    <value>Description is required</value>
-    <comment>Text to show if description field is empty.</comment>
+    <value>説明は必須項目です</value>
+    <comment>詳細フィールドが未入力の際に表示されるテキスト</comment>
   </data>
   <data name="TitleValidationText" xml:space="preserve">
-    <value>Input is required</value>
-    <comment>Text to show if title field is empty.</comment>
+    <value>入力必須項目です</value>
+    <comment>件名フィールドが未入力の際に表示されるテキスト</comment>
   </data>
   <data name="GroupName" xml:space="preserve">
-    <value>Request no {0}- attention required</value>
-    <comment>Text to use as a group name when group is created.</comment>
+    <value>リクエスト番号{0}-要確認</value>
+    <comment>グループが作成された際、グループ名として表示されるテキスト</comment>
   </data>
   <data name="MessageContent" xml:space="preserve">
-    <value>Hi Team, I need immediate support for request created by {0}. Can you help?</value>
-    <comment>Text to show when user clicks on chat button.</comment>
+    <value>こんにちは、{0}が作成したリクエストに対して至急サポートが必要です。お願いできますか？</value>
+    <comment>ユーザーがチャットボタンをクリックした際に表示するテキスト</comment>
   </data>
   <data name="InvalidTeamText" xml:space="preserve">
-    <value>This bot has not been added for this team</value>
-    <comment>Text to show validation in ME when it is not a valid team to open request.</comment>
+    <value>このボットは、このチームに追加されていません。</value>
+    <comment>リクエストを開くための有効チームではない場合にMEに有効化を表示するテキスト</comment>
   </data>
   <data name="ExpertNameTitle" xml:space="preserve">
-    <value>Select a specialist</value>
-    <comment>Text to show on manage experts page</comment>
+    <value>スペシャリストを選ぶ</value>
+    <comment>エキスパート管理ページに表示するテキスト</comment>
   </data>
   <data name="AddButtonText" xml:space="preserve">
-    <value>Add</value>
-    <comment>Text to show on add button.</comment>
+    <value>追加</value>
+    <comment>追加ボタンに表示するテキスト</comment>
   </data>
   <data name="ExpertListPlaceHolderText" xml:space="preserve">
-    <value>Enter one or more names or emails</value>
-    <comment>Text to show in expert list dropdown placeholder.</comment>
+    <value>１つまたは複数の名前またはメールアドレスを入力してください。</value>
+    <comment>エキスパートリストドロップダウンのプレースホルダーに表示するテキスト</comment>
   </data>
   <data name="ExpertListTitle" xml:space="preserve">
-    <value>Current on-call team</value>
-    <comment>Text to show on manage experts page.</comment>
+    <value>現在のオンコールチーム</value>
+    <comment>エキスパート管理ページに表示するテキスト</comment>
   </data>
   <data name="NoMatchesFoundText" xml:space="preserve">
-    <value>We couldn't find any matches.</value>
-    <comment>Text to show when there are no matches to condition.</comment>
+    <value>一致する内容が見つかりませんでした。</value>
+    <comment>条件に一致する内容がない場合に表示するテキスト</comment>
   </data>
   <data name="SaveButtonText" xml:space="preserve">
-    <value>Save</value>
-    <comment>Text to show on save button.</comment>
+    <value>保存</value>
+    <comment>保存ボタンに表示するテキスト</comment>
   </data>
   <data name="OnCallExpertMentionText" xml:space="preserve">
-    <value>The on-call experts list has been modified. {0} have been added.</value>
-    <comment>Text to show when on call expert list is modified.</comment>
+    <value>オンコールエキスパートのリストが変更されました。{0}が追加されました。</value>
+    <comment>オンコールエキスパートのリストが変更された際に表示するテキスト</comment>
   </data>
   <data name="MaxOnCallExpertsAllowedText" xml:space="preserve">
-    <value>A maximum of 15 people can be added to the list with a min of 0</value>
-    <comment>Text to show for validation message when on call experts selected are more than 15.</comment>
+    <value>このリストには0人から最大15人まで追加できます。</value>
+    <comment>オンコールエキスパートが16人以上選択されている場合に表示される検証メッセージのテキスト</comment>
   </data>
   <data name="ExperListBulletPoint" xml:space="preserve">
-    <value>* Hit **Current on-call team** button to set up on call experts from this team.</value>
-    <comment>Text to show command in a welcome Team card.</comment>
+    <value>* このチームからオンコールエキスパートを設定する場合、**現在のオンコールチーム**ボタンをタップしてください。</value>
+    <comment>welcomeチームカード内にコマンドを表示するテキスト</comment>
   </data>
   <data name="SmeEditNotificationText" xml:space="preserve">
-    <value>This request is modified by {0}.</value>
-    <comment>Text to show when user edits the request.</comment>
+    <value>このリクエストは、{0}が変更しました。</value>
+    <comment>いつユーザーがリクエストを編集したかを表示するテキスト</comment>
   </data>
   <data name="SmeWithdrawNotificationText" xml:space="preserve">
-    <value>This request is withdrawn by {0}.</value>
-    <comment>Text to show for SME user when withdrawn.</comment>
+    <value>このリクエストは、{0}が取り消しました。</value>
+    <comment>取り消した際にSMEユーザーに表示するテキスト</comment>
   </data>
   <data name="RequestUpdatedText" xml:space="preserve">
-    <value>Request updated</value>
-    <comment>Text to show as title of ticket edited card send in 1:1 chat with bot.</comment>
+    <value>リクエストが更新されました</value>
+    <comment>ボットとの1対１のチャット内で送信したチケット編集カードにタイトルとして表示するテキスト</comment>
   </data>
   <data name="WelcomeTeamCardContent" xml:space="preserve">
-    <value>Hello, I can help you provide support to people who interact with me and need more assistance.</value>
-    <comment>Text to show bot description in welcome card for Sme.</comment>
+    <value>こんにちは、ボットに連絡してきた人で、さらにヘルプが必要な人たちにサポートを提供するお手伝いをします。</value>
+    <comment>SME用welcomeカード内のボット詳細を表示するテキスト</comment>
   </data>
   <data name="ClosedErrorMessage" xml:space="preserve">
-    <value>This request is closed and cannot be edited</value>
-    <comment>Text to show when user want to edit closed request.</comment>
+    <value>このリクエストはクローズされたため編集できません。</value>
+    <comment>ユーザーがクローズしたリクエストを編集したい時に表示するテキスト</comment>
   </data>
   <data name="DescriptionText" xml:space="preserve">
-    <value>Details</value>
-    <comment>Text to show description in request submitted card.</comment>
+    <value>詳細</value>
+    <comment>リクエスト提出カードに詳細を表示するテキスト</comment>
   </data>
   <data name="RequestNumberText" xml:space="preserve">
-    <value>Request number</value>
-    <comment>Text to show as request number in new request card.</comment>
+    <value>リクエスト番号</value>
+    <comment>新しいリクエストカードにリクエスト番号として表示するテキスト</comment>
   </data>
   <data name="RequestTypeText" xml:space="preserve">
-    <value>Request type</value>
-    <comment>Text to show request type in request submitted card.</comment>
+    <value>リクエストの緊急度</value>
+    <comment>リクエスト提出カードにリクエスト緊急度を表示するテキスト</comment>
   </data>
   <data name="TitleDisplayText" xml:space="preserve">
-    <value>What is it about?</value>
-    <comment>Text to show as title text in new request card.</comment>
+    <value>件名</value>
+    <comment>新しいリクエストカードにタイトルテキストとして表示するテキスト</comment>
   </data>
   <data name="WithdrawErrorMessage" xml:space="preserve">
-    <value>Only active requests can be withdrawn.</value>
-    <comment>Text to show when user want to withdraw closed request.</comment>
+    <value>アクティブなリクエストのみ取り消すことができます。</value>
+    <comment>解決済みリクエストをユーザーが取り消したいときに表示するテキスト</comment>
   </data>
   <data name="StatusCheckBulletPoint" xml:space="preserve">
-    <value>* To check status, click the small version of my icon near your message formatting options.</value>
-    <comment>Text to show in welcome card for know user how this bot hepls.</comment>
+    <value>* ステータスを確認する場合、メッセージフォーマットオプションの近くにある小さいアイコンをクリックしてください。</value>
+    <comment>このボットのサポート方法をユーザーに知らせるためのwelcomeカードに表示するテキスト</comment>
   </data>
   <data name="AzureStorageErrorText" xml:space="preserve">
-    <value>Something went wrong while saving your request. Please try again in few minutes.</value>
-    <comment>Text to show error when the request is not save in the azure storage.</comment>
+    <value>リクエスト保存中に問題が発生しました。数分後にもう一度お試しください。</value>
+    <comment>リクエストがazureストレージに保存されなかった際のエラーに表示するテキスト</comment>
   </data>
   <data name="CancelButtonText" xml:space="preserve">
-    <value>Cancel</value>
-    <comment>Text to show for button action.</comment>
+    <value>キャンセル</value>
+    <comment>ボタンアクション用に表示するテキスト</comment>
   </data>
   <data name="DesciptionPlaceHolderText" xml:space="preserve">
-    <value>Describe the problem</value>
-    <comment>Text to show in desciption place holder.</comment>
+    <value>問題を説明してください。</value>
+    <comment>詳細プレースホルダーに表示するテキスト</comment>
   </data>
   <data name="NewRequestTitle" xml:space="preserve">
-    <value>New request</value>
-    <comment>Text to show in new request card.</comment>
+    <value>新しいリクエスト</value>
+    <comment>新しいリクエストカードに表示するテキスト</comment>
   </data>
   <data name="SendRequestButtonText" xml:space="preserve">
-    <value>Send request</value>
-    <comment>Text to show for button action.</comment>
+    <value>リクエスト送信</value>
+    <comment>ボタンアクション用に表示するテキスト</comment>
   </data>
   <data name="TellUsAboutProblemText" xml:space="preserve">
-    <value>Tell us about the problem</value>
-    <comment>Text to show in card.</comment>
+    <value>発生している問題について教えてください。</value>
+    <comment>カードに表示するテキスト</comment>
   </data>
   <data name="TitlePlaceHolderText" xml:space="preserve">
-    <value>Type here...</value>
-    <comment>Text to show in title place holder.</comment>
+    <value>ここに入力</value>
+    <comment>タイトルプレースホルダーに表示するテキスト</comment>
   </data>
   <data name="SessionExpired" xml:space="preserve">
-    <value>Your session has expired. Please sign in again to proceed.</value>
-    <comment>Text to show when user session is expired.</comment>
+    <value>このセッションは期限が切れました。続行する場合は再度サインインしてください。</value>
+    <comment>ユーザーセッションの期限が切れた際に表示するテキスト</comment>
   </data>
   <data name="UnauthorizedAccess" xml:space="preserve">
-    <value>Unauthorized access</value>
-    <comment>Text to show when user is not authenticated.</comment>
+    <value>未承認のアクセス</value>
+    <comment>ユーザーが認証されていない時に表示するテキスト</comment>
   </data>
   <data name="OnCallListUpdateMessage" xml:space="preserve">
-    <value>The on-call experts list is modified.</value>
+    <value>オンコールリストが変更されました。</value>
   </data>
   <data name="RequestStatusText" xml:space="preserve">
-    <value>Status</value>
-    <comment>Text to show ticket current status.</comment>
+    <value>ステータス</value>
+    <comment>チケットの現在のステータスを表示するテキスト</comment>
   </data>
   <data name="TeamRequestBulletPoint" xml:space="preserve">
-    <value>* To check requests assignements, click the small version of my icon near your message formatting options.</value>
-    <comment>Text to show as a bullet point in team welcome card.</comment>
+    <value>* リクエスト割り当てを確認する場合、メッセージフォーマットオプションの近くにある小さいアイコンをクリックしてください。</value>
+    <comment>チームwelcomeカードに箇条書きとして表示するテキスト</comment>
   </data>
 </root>
