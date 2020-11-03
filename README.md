@@ -21,9 +21,9 @@ Microsoft Teamsのインシデントレポーターボットを使用するこ�
 - ご使用になる職場のニーズに応じてカスタマイズ可能なインシデント報告フォーム
 - スペシャリストチーム内でのインシデント報告により、迅速な協力と関係者への通知が可能となり完了まで追跡可能
 
-![New Request in Incident Reporter personal chat](https://user-images.githubusercontent.com/70117421/91243749-a69a0600-e785-11ea-9740-24978c939cce.png)
+![New Request in Incident Reporter personal chat](./images/image001.png)
 
-![Messaging extension for experts](https://user-images.githubusercontent.com/70117421/91153256-f2ec3400-e6fa-11ea-948f-f723f908050c.png)
+![Messaging extension for experts](./images/image002.png)
 
 ## 法的通知
 このアプリテンプレートは、[MITライセンス条項](https://github.com/officeDevJp/microsoft-teams-apps-incidentreport/blob/main/LICENSE) に従って提供されます。これらの条件に加え、このアプリテンプレートを使用することで以下に同意するものとします。
