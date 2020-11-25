@@ -293,7 +293,7 @@ namespace Microsoft.Teams.Apps.RemoteSupport
                     case Constants.EditRequestAction:
                         string ticketId = valuesforTaskModule.PostedValues;
                         var ticketDetail = await this.ticketDetailStorageProvider.GetTicketAsync(ticketId);
-                        if (ticketDetail.TicketStatus == (int)TicketState.Closed)
+                        if (ticketDetail.TicketStatus == (int)TicketState.クローズ)
                         {
                             return CardHelper.GetClosedErrorAdaptiveCard(this.localizer);
                         }

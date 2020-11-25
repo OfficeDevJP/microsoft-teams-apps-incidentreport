@@ -134,7 +134,7 @@ namespace Microsoft.Teams.Apps.RemoteSupport.Cards
             {
                 this.CreateChatWithUserAction(localizer),
             };
-            if (this.ticket.TicketStatus != (int)TicketState.Withdrawn)
+            if (this.ticket.TicketStatus != (int)TicketState.取り消し)
             {
                 actionsList.Add(new AdaptiveShowCardAction
                 {
@@ -234,7 +234,7 @@ namespace Microsoft.Teams.Apps.RemoteSupport.Cards
                 Style = AdaptiveChoiceInputStyle.Compact,
             };
 
-            if (this.ticket.TicketStatus == (int)TicketState.Unassigned)
+            if (this.ticket.TicketStatus == (int)TicketState.未割り当て)
             {
                 choiceSet.Value = ChangeTicketStatus.AssignToSelfAction;
                 choiceSet.Choices = new List<AdaptiveChoice>
@@ -251,7 +251,7 @@ namespace Microsoft.Teams.Apps.RemoteSupport.Cards
                     },
                 };
             }
-            else if (this.ticket.TicketStatus == (int)TicketState.Closed)
+            else if (this.ticket.TicketStatus == (int)TicketState.クローズ)
             {
                 choiceSet.Value = localizer.GetString("ReopenActionChoiceTitle");
                 choiceSet.Choices = new List<AdaptiveChoice>
@@ -268,7 +268,7 @@ namespace Microsoft.Teams.Apps.RemoteSupport.Cards
                     },
                 };
             }
-            else if (this.ticket.TicketStatus == (int)TicketState.Assigned)
+            else if (this.ticket.TicketStatus == (int)TicketState.割り当て済み)
             {
                 choiceSet.Value = localizer.GetString("CloseActionChoiceTitle");
                 choiceSet.Choices = new List<AdaptiveChoice>

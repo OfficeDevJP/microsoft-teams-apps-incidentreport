@@ -93,25 +93,25 @@ namespace Microsoft.Teams.Apps.RemoteSupport.Common.Providers
             switch (searchScope)
             {
                 case TicketSearchScope.UrgentTickets:
-                    searchParameters.Filter = $"Severity eq {(int)TicketSeverity.Urgent}";
+                    searchParameters.Filter = $"Severity eq {(int)TicketSeverity.緊急}";
                     searchParameters.OrderBy = new[] { "Timestamp desc" };
                     break;
 
                 case TicketSearchScope.AssignedTickets:
-                    searchParameters.Filter = $"TicketStatus eq {(int)TicketState.Assigned}";
+                    searchParameters.Filter = $"TicketStatus eq {(int)TicketState.割り当て済み}";
                     searchParameters.OrderBy = new[] { "Timestamp desc" };
                     break;
 
                 case TicketSearchScope.UnassignedTickets:
-                    searchParameters.Filter = $"TicketStatus eq {(int)TicketState.Unassigned}";
+                    searchParameters.Filter = $"TicketStatus eq {(int)TicketState.未割り当て}";
                     searchParameters.OrderBy = new[] { "Timestamp desc" };
                     break;
                 case TicketSearchScope.ActiveTickets:
-                    searchParameters.Filter = $"(TicketStatus eq {(int)TicketState.Assigned} or TicketStatus eq {(int)TicketState.Unassigned}) and CreatedByObjectId eq '{requestorId}'";
+                    searchParameters.Filter = $"(TicketStatus eq {(int)TicketState.割り当て済み} or TicketStatus eq {(int)TicketState.未割り当て}) and CreatedByObjectId eq '{requestorId}'";
                     searchParameters.OrderBy = new[] { "Timestamp desc" };
                     break;
                 case TicketSearchScope.ClosedTickets:
-                    searchParameters.Filter = $"TicketStatus eq {(int)TicketState.Closed} and CreatedByObjectId eq '{requestorId}'";
+                    searchParameters.Filter = $"TicketStatus eq {(int)TicketState.クローズ} and CreatedByObjectId eq '{requestorId}'";
                     searchParameters.OrderBy = new[] { "Timestamp desc" };
                     break;
             }
