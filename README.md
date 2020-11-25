@@ -14,6 +14,6 @@ Microsoft Teamsのインシデントレポーターボットを使用するこ�
 ## 利用方法および展開方法
 
 それぞのガイドをご参照ください。
-利用方法：[Incident Reporter利用者ガイド](https://github.com/officeDevJp/microsoft-teams-apps-incidentreport/wiki/%E5%88%A9%E7%94%A8%E8%80%85%E3%82%AC%E3%82%A4%E3%83%89)
-展開方法：[Incident Reporter管理者ガイド](https://github.com/officeDevJp/microsoft-teams-apps-incidentreport/wiki/%E7%AE%A1%E7%90%86%E8%80%85%E3%82%AC%E3%82%A4%E3%83%89)
 
+- 利用方法：[Incident Reporter利用者ガイド](https://github.com/OfficeDevJP/microsoft-teams-apps-incidentreport/releases/download/v1.0.0/Incident_Reporter_User_Guide.pdf)
+- 展開方法：[Incident Reporter管理者ガイド](https://github.com/OfficeDevJP/microsoft-teams-apps-incidentreport/releases/download/v1.0.0/Incident_Reporter_Deployment_Guide.pdf)
